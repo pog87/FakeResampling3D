@@ -3,6 +3,8 @@ import sys
 
 import nibabel as nib
 
+# computes the mean value per segment of an image
+# Inputs: image.nii.gz segments.nii.gz
 
 def matrix(fname):
     a = nib.load(fname)
