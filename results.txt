@@ -1,14 +1,18 @@
-mean value per segment
+Mean value per segment
 gold standard
 Mean value per segment:
 [0.0, 1.0, 0.049999967, 0.19999962, 0.30000004, 0.14999998]
-resampling
+Trilinear upsampling
 Mean value per segment:
 [0.0019789623467742932, 0.8232052888170446, 0.056859433418680806, 0.21571538821533576, 0.2960958537309077, 0.15995001936832337]
-Fake Nodes resampling
+Fake Nodes + Trilinear upsampling
 Mean value per segment:
 [9.86482080390564e-17, 0.9999066716987938, 0.04999858772234849, 0.19999757202772261, 0.29999206967587033, 0.14993919553444546]
-global error measures
+Downscaling the segments
+Mean value per segment:
+[0.00067114923, 0.87484175, 0.054641847, 0.21237093, 0.2975978, 0.15273969]
+------------
+Global error measures
 gold standard Vs goal standard
 RMSE: 0.0
 PSNR: 100
